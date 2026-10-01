@@ -75,6 +75,11 @@ a {
 .logo span {
     color: var(--accent);
     margin-left: 5px;
+    font-weight: 100;
+    font-size: 3rem;
+    line-height: 1.5;
+    display: inline-block;
+    transform: translateY(2px);
 }
 
 .nav-links {
