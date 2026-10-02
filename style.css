@@ -40,7 +40,7 @@ body::before {
     position: absolute;
     inset: 0;
     z-index: -1;
-    background: url('IMG-20260927-WA0008.jpg') center top / 100% auto repeat-y;
+    background: url('IMG-20260927-WA0008.png') center top / 100% auto repeat-y;
     pointer-events: none;
 }
 
