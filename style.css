@@ -165,6 +165,7 @@ a {
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    line-height: 0;
 }
 
 .btn-primary {
@@ -209,6 +210,11 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 2.5rem;
+}
+
+.product-card instagram-product:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    justify-self: center;
 }
 
 .product-card {
@@ -356,6 +362,7 @@ a {
 .about-container p {
     color: var(--text-secondary);
     margin-bottom: 2rem;
+    line-height:1.5;
 }
 
 .btn-secondary {
